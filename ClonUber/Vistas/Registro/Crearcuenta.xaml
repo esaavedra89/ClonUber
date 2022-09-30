@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClonUber.Vistas.Registro.Crearcuenta">
+    <StackLayout
+        Padding="20"
+        Spacing="30">
+        <Label
+            Text="Selecciona tu cuenta de Google"
+            FontSize="Medium"
+            TextColor="black"/>
+        <Label
+            Text="S continuas es posible que recibas un SMS para verificar la cuenta. Se puede aplicar los precios de mensajes y datos."/>
+        <Frame
+            HasShadow="False"
+            BackgroundColor="#EEEEEE"
+            CornerRadius="10"
+            Padding="10">
+            <StackLayout
+                Orientation="Horizontal">
+                <Image 
+                    Source="https://storage.googleapis.com/support-kms-prod/ZAl1gIwyUsvfwxoW9ns47iJFioHXODBbIkrK"
+                    HeightRequest="35"/>
+                <Label
+                    Text="Continuar con Google"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Center"
+                    FontAttributes="Bold"
+                    TextColor="Black"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

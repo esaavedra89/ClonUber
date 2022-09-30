@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "fET1O8dxszWHXKT4voa/A+Brx3TP6F1RF5AC+WDNZVyEUcvCZYDbhSUizP/LT6NxVXNeHicUUeXUMfNEqpNtpQ==",
+  "success": true,
+  "projectFilePath": "F:\\ProyectosPractica\\ClonUber\\ClonUber\\ClonUber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eleaz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\plugin.materialdesigncontrols\\1.11.4\\plugin.materialdesigncontrols.1.11.4.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2515\\xamarin.forms.visual.material.5.0.0.2515.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClonUber.Vistas.MenuPrincipal.VMenuPrincipal">
+    <StackLayout
+        Padding="20"
+        BackgroundColor="White">
+        <Image Source="https://cdn-icons-png.flaticon.com/512/1144/1144760.png"
+               HorizontalOptions="End"
+               HeightRequest="20"/>
+        <Frame
+            Padding="0"
+            CornerRadius="10"
+            HasShadow="False"
+            BackgroundColor="#E3DDF2">
+            <Grid
+                ColumnDefinitions="auto,auto">
+                <StackLayout
+                    VerticalOptions="Center"
+                    Padding="30">
+                    <Label
+                        Text="Listo? !Vamos a ello!"
+                        TextColor="Black"
+                        FontSize="Medium"
+                        FontAttributes="Bold"/>
+                    <StackLayout
+                        Orientation="Horizontal">
+                        <Label
+                            Text="Viajar con Uber"
+                            TextColor="black"
+                            FontSize="Body"/>
+                        <Image
+                            Source="https://i.ibb.co/cYKZySB/arrow-right.png"
+                            HeightRequest="30"/>
+                    </StackLayout>
+                </StackLayout>
+                <Image
+                    Grid.Column="1"
+                    Source="https://thumbs.dreamstime.com/b/mujer-sonriente-o-pasajera-en-taxi-car-veh%C3%ADculo-de-transporte-y-personas-concepto-feliz-coche-212151399.jpg"
+                    Aspect="AspectFill"/>
+            </Grid>
+        </Frame>
+    </StackLayout>
+</ContentPage>
