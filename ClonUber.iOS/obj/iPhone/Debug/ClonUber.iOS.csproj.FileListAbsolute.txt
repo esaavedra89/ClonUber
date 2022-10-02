@@ -64,3 +64,8 @@ F:\ProyectosPractica\ClonUber\ClonUber.iOS\obj\iPhone\Debug\ClonUber.iOS.pdb
 F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Xamarin.Forms.Material.dll
 F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Xamarin.Forms.Material.pdb
 F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\MaterialComponents.dll
+F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Plugin.MaterialDesignControls.dll
+F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Plugin.MaterialDesignControls.iOS.dll
+F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Xamarin.Forms.GoogleMaps.dll
+F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Xamarin.Forms.GoogleMaps.iOS.dll
+F:\ProyectosPractica\ClonUber\ClonUber.iOS\bin\iPhone\Debug\Google.Maps.dll

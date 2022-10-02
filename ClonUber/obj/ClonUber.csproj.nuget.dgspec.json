@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[5.0.0.2515, )"
             },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
               "version": "[5.0.0.2515, )"

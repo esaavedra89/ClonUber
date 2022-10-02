@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fET1O8dxszWHXKT4voa/A+Brx3TP6F1RF5AC+WDNZVyEUcvCZYDbhSUizP/LT6NxVXNeHicUUeXUMfNEqpNtpQ==",
+  "dgSpecHash": "RQUoaAr9fIsmJOkqp62x71zLPxCWw6g9C4+EghSjR+P+6wNNWMUoUfVW0f0Hzbk3eXybC24z2CM1VT1Qps2c0w==",
   "success": true,
   "projectFilePath": "F:\\ProyectosPractica\\ClonUber\\ClonUber\\ClonUber.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\eleaz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms.googlemaps\\5.0.0\\xamarin.forms.googlemaps.5.0.0.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2515\\xamarin.forms.visual.material.5.0.0.2515.nupkg.sha512"
   ],
   "logs": []

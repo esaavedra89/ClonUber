@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "PsFTXpB5Lln59cGbj/oBdEpjmj46IYZn+GBWgXH9xK/OPHz3ZceS9yGyu86T8B0OH87By7i0LeC7Mdx7GRJUUA==",
+  "dgSpecHash": "R7Tia01UWYDB0GLoDq9Zk1eUpK0NflPwk/hjIRVkdB10WR4577G7eKX+BiHBg12SJvhBQhI643gS9pMYolUX0Q==",
   "success": true,
   "projectFilePath": "F:\\ProyectosPractica\\ClonUber\\ClonUber.iOS\\ClonUber.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eleaz\\.nuget\\packages\\plugin.materialdesigncontrols\\1.11.4\\plugin.materialdesigncontrols.1.11.4.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.build.download\\0.11.0\\xamarin.build.download.0.11.0.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms.googlemaps\\5.0.0\\xamarin.forms.googlemaps.5.0.0.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2515\\xamarin.forms.visual.material.5.0.0.2515.nupkg.sha512",
+    "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.google.ios.maps\\6.0.1.1\\xamarin.google.ios.maps.6.0.1.1.nupkg.sha512",
     "C:\\Users\\eleaz\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
   ],
   "logs": []

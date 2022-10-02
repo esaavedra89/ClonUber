@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ClonUber.Vistas.MenuPrincipal.VMenuPrincipal">
+             x:Class="ClonUber.Vistas.MenuPrincipal.VMenuPrincipal"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps">
     <StackLayout
         Padding="20"
-        BackgroundColor="White">
+        BackgroundColor="White"
+        Spacing="18">
         <Image Source="https://cdn-icons-png.flaticon.com/512/1144/1144760.png"
                HorizontalOptions="End"
                HeightRequest="20"/>
@@ -39,6 +41,63 @@
                     Source="https://thumbs.dreamstime.com/b/mujer-sonriente-o-pasajera-en-taxi-car-veh%C3%ADculo-de-transporte-y-personas-concepto-feliz-coche-212151399.jpg"
                     Aspect="AspectFill"/>
             </Grid>
+        </Frame>
+        <Frame
+            BackgroundColor="#EDEDED"
+            CornerRadius="10"
+            HasShadow="False"
+            Padding="15,10">
+            <Label
+                Text="A donde vamos?"
+                FontSize="Large"
+                TextColor="Black"/>
+        </Frame>
+        <StackLayout
+            Orientation="Horizontal">
+            <Frame
+                BackgroundColor="#EEEEEE"
+                CornerRadius="30"
+                Padding="10">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/2893/2893811.png"
+                   HorizontalOptions="End"
+                   HeightRequest="20"/>        
+            </Frame>
+            <Label
+                Text="Elegir un favorito"
+                FontSize="Subtitle"
+                TextColor="Black"
+                VerticalOptions="Center"
+                FontAttributes="Bold"/>
+            <Image Source="https://cdn-icons-png.flaticon.com/512/271/271228.png"
+                   HorizontalOptions="EndAndExpand"
+                   HeightRequest="15"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal">
+            <Frame
+                BackgroundColor="#EEEEEE"
+                CornerRadius="30"
+                Padding="10">
+                <Image Source="https://cdn-icons-png.flaticon.com/512/2893/2893811.png"
+                   HorizontalOptions="End"
+                   HeightRequest="20"/>
+            </Frame>
+            <Label
+                Text="Establecer destino en el mapa"
+                FontSize="Subtitle"
+                TextColor="Black"
+                VerticalOptions="Center"
+                FontAttributes="Bold"/>
+            <Image Source="https://cdn-icons-png.flaticon.com/512/271/271228.png"
+                   HorizontalOptions="EndAndExpand"
+                   HeightRequest="15"/>
+        </StackLayout>
+        <Label
+            Text="A tu alrededor"
+            FontSize="Medium"
+            TextColor="Black"/>
+        <Frame>
+            <maps:Map/>
         </Frame>
     </StackLayout>
 </ContentPage>
