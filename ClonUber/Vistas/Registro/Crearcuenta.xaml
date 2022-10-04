@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ClonUber.Vistas.Registro.Crearcuenta">
+             x:Class="ClonUber.Vistas.Registro.Crearcuenta"
+             NavigationPage.HasNavigationBar="False">
     <StackLayout
         Padding="20"
         Spacing="30">
@@ -10,7 +11,7 @@
             FontSize="Medium"
             TextColor="black"/>
         <Label
-            Text="S continuas es posible que recibas un SMS para verificar la cuenta. Se puede aplicar los precios de mensajes y datos."/>
+            Text="Si continuas es posible que recibas un SMS para verificar la cuenta. Se puede aplicar los precios de mensajes y datos."/>
         <Frame
             HasShadow="False"
             BackgroundColor="#EEEEEE"
@@ -28,6 +29,9 @@
                     FontAttributes="Bold"
                     TextColor="Black"/>
             </StackLayout>
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding GmailCommand}"/>
+            </Frame.GestureRecognizers>
         </Frame>
     </StackLayout>
 </ContentPage>

@@ -11,7 +11,7 @@ namespace ClonUber
             InitializeComponent();
 
             //MainPage = new NavigationPage(new Empezar());
-            MainPage = new VMenuPrincipal();
+            MainPage = new NavigationPage(new Empezar());
         }
 
         protected override void OnStart()

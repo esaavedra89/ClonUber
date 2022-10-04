@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClonUber.VistaModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace ClonUber.Vistas.Registro
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            BindingContext = new VMEmpezar(Navigation);
         }
 
         async void Button_Clicked(object sender, EventArgs e)

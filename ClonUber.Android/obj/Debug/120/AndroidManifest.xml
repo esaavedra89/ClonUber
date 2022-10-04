@@ -7,9 +7,9 @@
     -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.clonuber" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
-  <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="ClonUber.Android" android:theme="@style/MainTheme" android:icon="@mipmap/icoonuber" android:debuggable="true" android:name="crc64df172952e985c2a2.GoogleMapsApi" android:allowBackup="true" android:extractNativeLibs="true">
     <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyA6HS43j8wNuEFgJ55_YJgsYxxtr0bZWgo" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />

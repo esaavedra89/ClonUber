@@ -19,7 +19,8 @@
                 Margin="0,0,10,0">
                 <Entry
                     Placeholder="Ingresa tu nombre"
-                    BackgroundColor="#EEEEEE"/>
+                    BackgroundColor="#EEEEEE"
+                    Text="{Binding _googleUserRecibe.Name}"/>
             </Frame>
             <Frame
                 BackgroundColor="#EEEEEE"
@@ -29,7 +30,8 @@
                 Grid.Column="1">
                 <Entry
                     Placeholder="Ingresa tu apellido"
-                    BackgroundColor="#EEEEEE"/>
+                    BackgroundColor="#EEEEEE"
+                    Text="{Binding _googleUserRecibe.Apellido}"/>
             </Frame>
         </Grid>
         <StackLayout

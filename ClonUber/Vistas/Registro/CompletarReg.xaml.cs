@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClonUber.Modelo;
+using ClonUber.VistaModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +14,10 @@ namespace ClonUber.Vistas.Registro
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CompletarReg : ContentPage
     {
-        public CompletarReg()
+        public CompletarReg(GoogleUser parametros)
         {
             InitializeComponent();
+            BindingContext = new VMCompletarReg(Navigation, parametros);
         }
     }
 }

@@ -96,7 +96,11 @@
             Text="A tu alrededor"
             FontSize="Medium"
             TextColor="Black"/>
-        <Frame>
+        <Frame
+            VerticalOptions="FillAndExpand"
+            CornerRadius="20"
+            Padding="0"
+            HasShadow="false">
             <maps:Map/>
         </Frame>
     </StackLayout>
