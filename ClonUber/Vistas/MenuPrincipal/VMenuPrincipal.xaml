@@ -2,7 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ClonUber.Vistas.MenuPrincipal.VMenuPrincipal"
-             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps">
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+            EventName="Appearing"
+            Command="{Binding ValidarCommand}"/>
+    </ContentPage.Behaviors>
     <StackLayout
         Padding="20"
         BackgroundColor="White"
@@ -101,7 +107,8 @@
             CornerRadius="20"
             Padding="0"
             HasShadow="false">
-            <maps:Map/>
+            <maps:Map
+                IsShowingUser="False"/>
         </Frame>
     </StackLayout>
 </ContentPage>

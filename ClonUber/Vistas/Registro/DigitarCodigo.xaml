@@ -18,7 +18,8 @@
                 Keyboard="Numeric"
                 FontSize="20"
                 BackgroundColor="#F6F6F6"
-                BorderColor="#F6F6F6"/>
+                BorderColor="#F6F6F6"
+                Text="{Binding TxtCodigo}"/>
         </Grid>
         <Frame
             CornerRadius="30"
@@ -62,6 +63,10 @@
                         HorizontalOptions="End"
                         Margin="0,0,18,0"
                         BackgroundColor="White"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding ValidarCommand}"/>
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
             </Frame>
         </StackLayout>

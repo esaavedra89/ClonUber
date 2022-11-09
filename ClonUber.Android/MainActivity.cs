@@ -8,6 +8,7 @@ using Plugin.CurrentActivity;
 using Android.Content;
 using Android.Gms.Auth.Api;
 using Android.Gms.Auth.Api.SignIn;
+using FFImageLoading.Forms.Platform;
 
 namespace ClonUber.Droid
 {
@@ -22,6 +23,8 @@ namespace ClonUber.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             global::Xamarin.Forms.FormsMaterial.Init(this, savedInstanceState);
             Xamarin.FormsGoogleMaps.Init(this, savedInstanceState);
+            CachedImageRenderer.Init(true);
+            Rg.Plugins.Popup.Popup.Init(this);
             LoadApplication(new App());
         }
 
