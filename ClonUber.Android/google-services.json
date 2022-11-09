@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "137916596187",
+    "project_id": "uberapp-curso-e190c",
+    "storage_bucket": "uberapp-curso-e190c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137916596187:android:1cc16897d5f4a054adf1fe",
+        "android_client_info": {
+          "package_name": "com.companyname.clonuber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137916596187-tqlnrcaq5hq23mdhs1laj6mre6r6v9ge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.clonuber",
+            "certificate_hash": "d688050459f56f491d963b59983c0e16ad77ddaa"
+          }
+        },
+        {
+          "client_id": "137916596187-9gc8dp03566mo1bqvs8ev6c34akn5q56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEhU-sHGi5yA9xIjFMW9Cjb72bswBodYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137916596187-9gc8dp03566mo1bqvs8ev6c34akn5q56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
